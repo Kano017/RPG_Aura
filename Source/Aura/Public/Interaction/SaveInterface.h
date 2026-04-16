@@ -6,7 +6,7 @@
 #include "UObject/Interface.h"
 #include "SaveInterface.generated.h"
 
-// This class does not need to be modified.
+// 该类无需修改。
 UINTERFACE(MinimalAPI)
 class USaveInterface : public UInterface
 {
@@ -20,7 +20,7 @@ class AURA_API ISaveInterface
 {
 	GENERATED_BODY()
 
-	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
+	// 在此类中添加接口函数。实现该接口时需要继承此类。
 public:
 
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)

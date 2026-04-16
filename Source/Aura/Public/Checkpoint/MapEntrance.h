@@ -16,13 +16,13 @@ class AURA_API AMapEntrance : public ACheckpoint
 public:
 	AMapEntrance(const FObjectInitializer& ObjectInitializer);
 
-	/* Highlight Interface */
+	/* 高亮接口 */
 	virtual void HighlightActor_Implementation() override;
-	/* Highlight Interface */
+	/* 高亮接口 */
 
-	/* Save Interface */
+	/* 存档接口 */
 	virtual void LoadActor_Implementation() override;
-	/* end Save Interface */
+	/* 存档接口 结束 */
 
 	UPROPERTY(EditAnywhere)
 	TSoftObjectPtr<UWorld> DestinationMap;

@@ -34,7 +34,7 @@ struct FTaggedMontage
 	USoundBase* ImpactSound = nullptr;
 };
 
-// This class does not need to be modified.
+// 该类无需修改。
 UINTERFACE(MinimalAPI, BlueprintType)
 class UCombatInterface : public UInterface
 {
@@ -49,7 +49,7 @@ class AURA_API ICombatInterface
 {
 	GENERATED_BODY()
 
-	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
+	// 在此类中添加接口函数。实现该接口时需要继承此类。
 public:
 	UFUNCTION(BlueprintNativeEvent)
 	int32 GetPlayerLevel();

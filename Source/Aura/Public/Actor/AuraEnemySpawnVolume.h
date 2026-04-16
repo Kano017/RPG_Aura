@@ -17,9 +17,9 @@ class AURA_API AAuraEnemySpawnVolume : public AActor, public ISaveInterface
 public:	
 	AAuraEnemySpawnVolume();
 
-	/* Save Interface */
+	/* 存档接口 */
 	virtual void LoadActor_Implementation() override;
-	/* end Save Interface */
+	/* 存档接口 结束 */
 
 	UPROPERTY(BlueprintReadOnly, SaveGame)
 	bool bReached = false;

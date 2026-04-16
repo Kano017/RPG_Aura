@@ -21,7 +21,7 @@ void AMapEntrance::HighlightActor_Implementation()
 
 void AMapEntrance::LoadActor_Implementation()
 {
-	// Do nothing when loading a Map Entrance
+	// 加载地图入口时不执行任何操作
 }
 
 void AMapEntrance::OnSphereOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,

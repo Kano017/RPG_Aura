@@ -3,4 +3,4 @@
 
 #include "Interaction/HighlightInterface.h"
 
-// Add default functionality here for any IHighlightInterface functions that are not pure virtual.
+// 在此处为所有非纯虚函数的 IHighlightInterface 函数添加默认实现。

@@ -39,7 +39,7 @@ public:
 	UPROPERTY()
 	FString MapAssetName;
 	
-	/** Field Notifies */
+	/** 字段通知 */
 	
 
 

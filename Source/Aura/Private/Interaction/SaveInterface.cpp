@@ -3,4 +3,4 @@
 
 #include "Interaction/SaveInterface.h"
 
-// Add default functionality here for any ISaveInterface functions that are not pure virtual.
+// 在此处为所有非纯虚函数的 ISaveInterface 函数添加默认实现。

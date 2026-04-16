@@ -19,6 +19,6 @@ void UAuraAssetManager::StartInitialLoading()
 	Super::StartInitialLoading();
 	FAuraGameplayTags::InitializeNativeGameplayTags();
 
-	// This is required to use Target Data!
+	// 使用 Target Data 必须调用此初始化！
 	UAbilitySystemGlobals::Get().InitGlobalData();
 }

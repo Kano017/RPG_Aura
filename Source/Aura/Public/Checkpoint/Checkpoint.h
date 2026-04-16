@@ -20,10 +20,10 @@ class AURA_API ACheckpoint : public APlayerStart, public ISaveInterface, public 
 public:
 	ACheckpoint(const FObjectInitializer& ObjectInitializer);
 
-	/* Save Interface */
+	/* 存档接口 */
 	virtual bool ShouldLoadTransform_Implementation() override { return false; };
 	virtual void LoadActor_Implementation() override;
-	/* end Save Interface */
+	/* 存档接口 结束 */
 
 	UPROPERTY(BlueprintReadWrite, SaveGame)
 	bool bReached = false;
@@ -37,11 +37,11 @@ protected:
 
 	virtual void BeginPlay() override;
 
-	/* Highlight Interface */
+	/* 高亮接口 */
 	virtual void SetMoveToLocation_Implementation(FVector& OutDestination) override;
 	virtual void HighlightActor_Implementation() override;
 	virtual void UnHighlightActor_Implementation() override;
-	/* Highlight Interface */
+	/* 高亮接口 */
 
 	UPROPERTY(VisibleAnywhere)
 	TObjectPtr<USceneComponent> MoveToComponent;
